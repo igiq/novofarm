@@ -1,0 +1,23 @@
+/*#text-box{
+	border: 10px solid grey;
+	margin:auto;
+	padding: 2em;
+}*/
+#menu-items{
+	position: relative;
+	top: 0px;
+	right: -970px;
+}
+
+}
+#text-in {
+	font-size: 80%;
+}
+#img-description {
+	position:relative;
+	top: 20px;
+}
+.vl {
+    border-left: 6px solid green;
+    height: 500px;
+}

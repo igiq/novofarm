@@ -1,0 +1,882 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"border",
+				"border\tproperty"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"inl",
+				"inline-block\tdisplay"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"font-",
+				"font-weight\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"mari",
+				"margin\tproperty"
+			],
+			[
+				"cl",
+				"classList"
+			],
+			[
+				"mode",
+				"modeButtons"
+			],
+			[
+				"border-r",
+				"border-radius\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"num",
+				"numSquares"
+			],
+			[
+				"pi",
+				"pickedColor"
+			],
+			[
+				"color",
+				"colorDisplay"
+			],
+			[
+				"pick",
+				"pickColor"
+			],
+			[
+				"re",
+				"remove"
+			],
+			[
+				"rese",
+				"resetButton"
+			],
+			[
+				"gene",
+				"generateRandomColors"
+			],
+			[
+				"ran",
+				"randomColor"
+			],
+			[
+				"mes",
+				"messageDislplay"
+			],
+			[
+				"clicke",
+				"clickedColor"
+			],
+			[
+				"p",
+				"pickedColor"
+			],
+			[
+				"s",
+				"squares"
+			],
+			[
+				"max-",
+				"max-width\tproperty"
+			],
+			[
+				"win",
+				"winScore"
+			],
+			[
+				"nu",
+				"numInput"
+			],
+			[
+				"p1",
+				"p1Display"
+			],
+			[
+				"f",
+				"function"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"p2",
+				"p2Score"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"sum",
+				"sumArray"
+			],
+			[
+				"r",
+				"result"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ar",
+				"argument"
+			],
+			[
+				"d",
+				"deleteTodos"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"user",
+				"userAlive"
+			],
+			[
+				"pro",
+				"prompt"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"hr",
+				"horizontal"
+			],
+			[
+				"all",
+				"align-self\tproperty"
+			],
+			[
+				"align",
+				"align-content\tproperty"
+			],
+			[
+				"alin",
+				"align-content\tproperty"
+			],
+			[
+				"se",
+				"series_id"
+			],
+			[
+				"agv",
+				"avg_rating"
+			],
+			[
+				"avg",
+				"avg_rating"
+			],
+			[
+				"ser",
+				"series"
+			],
+			[
+				"revi",
+				"reviews"
+			],
+			[
+				"last",
+				"last_name"
+			],
+			[
+				"rev",
+				"reviews"
+			],
+			[
+				"las",
+				"last_name"
+			],
+			[
+				"seri",
+				"series"
+			],
+			[
+				"int",
+				"int"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"text-decoration",
+				"text-decoration\tproperty"
+			],
+			[
+				"max",
+				"maxlength\tAttr"
+			],
+			[
+				"min",
+				"minlength\tAttr"
+			],
+			[
+				"la",
+				"last_name"
+			],
+			[
+				"firs",
+				"first_name"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"com",
+				"computer_wins"
+			],
+			[
+				"playe",
+				"Player"
+			],
+			[
+				"cp",
+				"computer_wins"
+			],
+			[
+				"play",
+				"player_wins"
+			],
+			[
+				"rando",
+				"random_number"
+			],
+			[
+				"pho",
+				"phone_format"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "landing.html",
+			"settings":
+			{
+				"buffer_size": 4127,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "/*#text-box{\n\tborder: 10px solid grey;\n\tmargin:auto;\n\tpadding: 2em;\n}*/\n#menu-items{\n\tposition: relative;\n\ttop: 0px;\n\tright: -970px;\n}\n\n}\n#text-in {\n\tfont-size: 80%;\n}\n#img-description {\n\tposition:relative;\n\ttop: 20px;\n}\n",
+			"file": "landing.css",
+			"file_size": 303,
+			"file_write_time": 131877017797783530,
+			"settings":
+			{
+				"buffer_size": 221,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "products.html",
+			"settings":
+			{
+				"buffer_size": 4109,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "prod.css",
+			"settings":
+			{
+				"buffer_size": 103,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "prod"
+			}
+		},
+		{
+			"file": "about.html",
+			"settings":
+			{
+				"buffer_size": 1246,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<form>\n\t<input type=\"text\" name=\"prod_name\" placeholder=\"Product Name\">\n\t<input type=\"text\" name=\"prod_img\" placeholder=\"Product Image\">\n\t<input type=\"text\" name=\"product_description\" placeholder=\"Product Description\">\n</form>",
+			"settings":
+			{
+				"buffer_size": 226,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/Apps/Color Game Project/colorGame.js",
+			"settings":
+			{
+				"buffer_size": 4425,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"html\t",
+				"Set Syntax: HTML"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"hmtl",
+				"Set Syntax: HTML"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"About"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"python",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			" import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Downloads/plshelp/3300FE0A@A883FC63.8A8CFF5B",
+		"/C/Users/Igor/AppData/Local/Temp/7zO0962354A/how-to-use.txt",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/Projects/Новофарм тест/header.html",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/Projects/Новофарм тест/landing.html",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/Projects/Новофарм тест/about.html",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/Projects/Новофарм тест/products.html",
+		"/D/Downloads/golf-code.json",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/JQuery/jq_ex.html",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/JQuery/index.html",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/Projects/Новофарм тест/landing_css",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/Apps/TO-DO list/assets/js/todos.js",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/Apps/TO-DO list/assets/css/todos.css",
+		"/C/Program Files/Rainmeter/Defaults/Skins/Win10 Widgets/Weather/Weather-ExtraLarge.ini",
+		"/C/Users/Igor/AppData/Roaming/Wox/Plugins/Wox.Spotify-eafb17e6-9120-4b7f-bd85-5b197b8a7015/plugin.json",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/26. YelpCamp Basics/4. Note about YelpCamp Styling Campgrounds Lecture.html",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/Apps/TO-DO list/index.html",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/25. Working With API's/5. Note about Movie API lectures.html",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/Apps/colorGame.js",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/Apps/color_game.css",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/Apps/color_game.html",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/15. Color Game Project/colorGame.js",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/JS Practics/dom_ex.js",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/JS Practics/dom.html",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/JS Practics/index.html",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/JS Practics/movieDB.js",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/14 Instagram Database Clone/240 CODE_ IG Clone Users Schema.html",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/15 Working With Lots Of Instagram Data/255 ig-clone-data.sql",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/DOM/index.html",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/JS Practics/problemset.js",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/JS Practics/todolist.js",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/JS Practics/function_ex.js",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/JS Practics/guessing.js",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/JS Practics/while_ex.js",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/JS Practics/for_ex.js",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/agecalc.js",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/index.html",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/boostrap basics/grid_gallery.html",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/8. Introduction to JavaScript/8.1 08_Including_Scripts.zip/08_Including_Scripts/script.js",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/apppur.css",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/purr.html",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/ludemeula-fernandes-451948-unsplash.jpg",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/boostrap basics/navbar.html",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/boostrap basics/gallery.css",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/boostrap basics/grid.html",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/boostrap basics/bsb.html",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/6. Intermediate CSS/12_Blog_Solution/blog.css",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/mbg.css",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/myblog.html",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/navbars.html",
+		"/C/Users/Igor/AppData/Local/Temp/7zE829EE833/navbars.html",
+		"/C/Users/Igor/AppData/Local/Temp/7zEC22F5A7F/blog.css",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/photoGrid.html",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/grid.css",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/image_grid.html",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/selectorsExercise.html",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/selectors.css",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/ttc.html",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/ttc.css",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/box.html",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/box.css",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/forms.html",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/fonts_test.html",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/style.css",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/13 Section 13_ Many To Many/Practice.sql",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/inputs.html",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/form_ex.html",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/about_me.html",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/todo.html",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/todo.css",
+		"/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/app.css",
+		"/C/Users/Igor/Documents/hosts.txt",
+		"/D/Downloads/Tutorials/[FreeTutorials.Us] Udemy - the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/07 The World Of String Functions/100 book-data.sql",
+		"/C/Users/Igor/Desktop/Python_Code/repater.py",
+		"/C/Users/Igor/Desktop/Python_Code/unl.py",
+		"/C/Users/Igor/Desktop/Python_Code/for_while_ex.py",
+		"/C/Users/Igor/Desktop/Python_Code/copycat.py",
+		"/C/Users/Igor/Desktop/Python_Code/phone_formater.py",
+		"/C/Users/Igor/Google Drive/[FreeTutorials.Us] Udemy - the-modern-python3-bootcamp/08 Boolean and Conditional Logic/066 truthiness.py",
+		"/C/Users/Igor/Google Drive/[FreeTutorials.Us] Udemy - the-modern-python3-bootcamp/08 Boolean and Conditional Logic/061 input.py",
+		"/C/Users/Igor/Desktop/Python_Code/Milage.py",
+		"/C/Users/Igor/Desktop/Python_Code/comments.py",
+		"/C/Users/Igor/Desktop/Python_Code",
+		"/C/Users/Igor/Desktop/firstPage.html",
+		"/C/Users/Igor/Desktop/Assingment.html",
+		"/C/Users/Igor/Desktop/Assignment 2.html",
+		"/C/Users/Igor/Desktop/HSBC Details.txt"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"p",
+			"thumbnail",
+			"img",
+			"thumbnail",
+			"col-lg-4"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "landing.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								815,
+								815
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "landing.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 221,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								135,
+								72
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "products.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								853,
+								1194
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 96.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "prod.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 103,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								103
+							]
+						],
+						"settings":
+						{
+							"auto_name": "prod",
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1246,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1246,
+								1246
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 226,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								226,
+								226
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/D/Downloads/Tutorials/PRIORITY Udemy - The Web Developer Bootcamp/Practices/Apps/Color Game Project/colorGame.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4425,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2208.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Novofarm-project.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 175.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

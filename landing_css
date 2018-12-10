@@ -1,0 +1,23 @@
+nav{
+  background-color:#4ba3d1;
+  height: 1.5em;
+  
+}
+.nav-link{
+  font-size: 20px;
+}
+
+
+#search{
+  position: relative; 
+  left:73%;
+  top:3%;
+  width:10%;
+  height:1.5em;
+}
+#company-text{
+  margin: 20px auto;
+  padding: 10px;
+  width:60%;
+  border: 15px solid grey;
+}
