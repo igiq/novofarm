@@ -3,6 +3,7 @@
     display: inline-block;
     box-sizing: content-box;
     width: 18rem;
+    height: 480px;
 }
 
 .menu-bar{
@@ -12,13 +13,13 @@
 }
 #left{
    border: 10px solid red;
-    left:40px;
+/*     left:40px; */
 }
 #center{
     border: 10px solid blue;
-    left: 15%
+/*     left: 15% */
 }
 #right{
     border: 10px solid aqua;
-    left: 50px;
+/*     left: 50px; */
 }
