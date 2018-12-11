@@ -5,3 +5,17 @@
     width: 18rem;
 }
 
+.menu-bar{
+    position: relative;
+    left:40%;
+    text-transform: uppercase;
+}
+#left{
+   border: 10px solid red;
+}
+#center{
+    border: 10px solid blue;
+}
+#right{
+    border: 10px soild purple;
+}
