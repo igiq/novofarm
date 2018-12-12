@@ -1,11 +1,11 @@
 <% include partials/header %>
 <style>
-    .container{
+    .container-fluid{
         display:grid;
-        grid-gap:50px;
-        grid-template-columns: 400px 400px 400px;
-        grid-template-rows: repeat(auto-fit,1fr)
-        }
+        grid-gap:20px;
+        grid-template-columns: repeat(auto-fit,470px);
+        grid-template-rows: repeat(auto-fit,200px);
+    }
     .card{
         display: grid;
         background: whitesmoke;
@@ -22,7 +22,7 @@
         <h1>На данной странице вы можете увидеть список растворов</h1>
         <h3>Производство лекарственных средств, зарегистрированных ООО фирмой "Новофарм-Биосинтез":</h3>
     </div>
-    <div class="container">
+    <div class="container-fluid">
         <div class="card">
             <div class="card-image">
                 <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
