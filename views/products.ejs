@@ -1,19 +1,22 @@
 <% include partials/header %>
 <style>
     .container{
-            display:grid;
-            /* flex-direction: row;
-            justify-content: space-between;
-            flex-wrap: wrap; */
-            grid-gap:20px;
-            grid-template-columns: 350px 350px 350px;
+        display:grid;
+        grid-gap:50px;
+        grid-template-columns: 400px 400px 400px;
+        grid-template-rows: repeat(auto-fit,1fr)
         }
-.card{
-    /* order: 1; */
-    background: whitesmoke;
-    width:350px; 
-    height:471px;
-}
+    .card{
+        display: grid;
+        background: whitesmoke;
+        /* width:350px; 
+        height:471px; */
+        grid-template-columns: 150px 1fr;
+    }
+    .card-desc{
+        box-sizing: content-box;
+        padding: 15px;
+    }
 </style>
     <div class="jumbotron">
         <h1>На данной странице вы можете увидеть список растворов</h1>
@@ -21,184 +24,230 @@
     </div>
     <div class="container">
         <div class="card">
-            <div class="card-body">
+            <div class="card-image">
                 <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            </div>
+            <div class="card-desc">
                 <h5 class="card-title">АМИКАЦИД</h5>
                 <p class="card-text">Краткое описание продукта. Состав.</p>
                 <button class="btn btn-primary">Подробнее</button>
             </div>
         </div>
         <div class="card">
-            <div class="card-body">
+            <div class="card-image">
                 <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            </div>
+            <div class="card-desc">
                 <h5 class="card-title">АМИНОКАПРОНОВАЯ КИСЛОТА</h5>
                 <p class="card-text">Краткое описание продукта. Состав.</p>
                 <button class="btn btn-primary">Подробнее</button>
             </div>
         </div>
         <div class="card">
-            <div class="card-body">
+            <div class="card-image">
                 <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            </div>
+            <div class="card-desc">
                 <h5 class="card-title">АРТРОКС</h5>
                 <p class="card-text">Краткое описание продукта. Состав.</p>
                 <button class="btn btn-primary">Подробнее</button>
             </div>
         </div>
         <div class="card">
-            <div class="card-body">
+            <div class="card-image">
                 <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            </div>
+            <div class="card-desc">
                 <h5 class="card-title">АТРАКУРИУМ-НОВО</h5>
                 <p class="card-text">Краткое описание продукта. Состав.</p>
                 <button class="btn btn-primary">Подробнее</button>
             </div>
         </div>
         <div class="card">
-            <div class="card-body">
+            <div class="card-image">
                 <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            </div>
+            <div class="card-desc">
                 <h5 class="card-title">ГЕПАРИН-НОВОФАРМ</h5>
                 <p class="card-text">Краткое описание продукта. Состав.</p>
                 <button class="btn btn-primary">Подробнее</button>
             </div>
         </div>
         <div class="card">
-            <div class="card-body">
+            <div class="card-image">
                 <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            </div>
+            <div class="card-desc">
                 <h5 class="card-title">ГЛЮКОЗА-НОВОФАРМ</h5>
                 <p class="card-text">Краткое описание продукта. Состав.</p>
                 <button class="btn btn-primary">Подробнее</button>
             </div>
         </div>
         <div class="card">
-            <div class="card-body">
+            <div class="card-image">
                 <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            </div>
+            <div class="card-desc">
                 <h5 class="card-title">ЛЕВОФЛОКСАЦИН-НОВОФАРМ</h5>
                 <p class="card-text">Краткое описание продукта. Состав.</p>
                 <button class="btn btn-primary">Подробнее</button>
             </div>
         </div>
         <div class="card">
-            <div class="card-body">
+            <div class="card-image">
                 <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            </div>
+            <div class="card-desc">
                 <h5 class="card-title">МАНИТ-НОВОФАРМ</h5>
                 <p class="card-text">Краткое описание продукта. Состав.</p>
                 <button class="btn btn-primary">Подробнее</button>
             </div>
         </div>
         <div class="card">
-            <div class="card-body">
+            <div class="card-image">
                 <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            </div>
+            <div class="card-desc">
                 <h5 class="card-title">МЕТРОНІДАЗОЛ-НОВОФАРМ</h5>
                 <p class="card-text">Краткое описание продукта. Состав.</p>
                 <button class="btn btn-primary">Подробнее</button>
             </div>
         </div>
         <div class="card">
-            <div class="card-body">
+            <div class="card-image">
                 <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            </div>
+            <div class="card-desc">
                 <h5 class="card-title">МИЛДРАКОР-НОВОФАРМ</h5>
                 <p class="card-text">Краткое описание продукта. Состав.</p>
                 <button class="btn btn-primary">Подробнее</button>
             </div>
         </div>
         <div class="card">
-            <div class="card-body">
+            <div class="card-image">
                 <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            </div>
+            <div class="card-desc">
                 <h5 class="card-title">НАТРИЙ ХЛОРИД</h5>
                 <p class="card-text">Краткое описание продукта. Состав.</p>
                 <button class="btn btn-primary">Подробнее</button>
             </div>
         </div>
         <div class="card">
-            <div class="card-body">
+            <div class="card-image">
                 <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            </div>
+            <div class="card-desc">
                 <h5 class="card-title">НЕОГЕМОДЕЗ</h5>
                 <p class="card-text">Краткое описание продукта. Состав.</p>
                 <button class="btn btn-primary">Подробнее</button>
             </div>
         </div>
         <div class="card">
-            <div class="card-body">
+            <div class="card-image">
                 <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            </div>
+            <div class="card-desc">
                 <h5 class="card-title">НОВОКСИКАМ</h5>
                 <p class="card-text">Краткое описание продукта. Состав.</p>
                 <button class="btn btn-primary">Подробнее</button>
             </div>
         </div>
         <div class="card">
-            <div class="card-body">
+            <div class="card-image">
                 <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            </div>
+            <div class="card-desc">
                 <h5 class="card-title">НОВОКСИКАМ</h5>
                 <p class="card-text">Краткое описание продукта. Состав.</p>
                 <button class="btn btn-primary">Подробнее</button>
             </div>
         </div>
         <div class="card">
-            <div class="card-body">
+            <div class="card-image">
                 <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            </div>
+            <div class="card-desc">
                 <h5 class="card-title">НОВАКСОН</h5>
                 <p class="card-text">Краткое описание продукта. Состав.</p>
                 <button class="btn btn-primary">Подробнее</button>
             </div>
         </div>
         <div class="card">
-            <div class="card-body">
+            <div class="card-image">
                 <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            </div>
+            <div class="card-desc">
                 <h5 class="card-title">НОВОСТЕЗИН</h5>
                 <p class="card-text">Краткое описание продукта. Состав.</p>
                 <button class="btn btn-primary">Подробнее</button>
             </div>
         </div>
         <div class="card">
-            <div class="card-body">
+            <div class="card-image">
                 <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            </div>
+            <div class="card-desc">
                 <h5 class="card-title">НОВОСТЕЗИН СПИНАЛ ХЕВИ</h5>
                 <p class="card-text">Краткое описание продукта. Состав.</p>
                 <button class="btn btn-primary">Подробнее</button>
             </div>
         </div>
         <div class="card">
-            <div class="card-body">
+            <div class="card-image">
                 <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            </div>
+            <div class="card-desc">
                 <h5 class="card-title">ОРНИДАЗОЛ-НОВОФАРМ</h5>
                 <p class="card-text">Краткое описание продукта. Состав.</p>
                 <button class="btn btn-primary">Подробнее</button>
             </div>
         </div>
         <div class="card">
-            <div class="card-body">
+            <div class="card-image">
                 <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            </div>
+            <div class="card-desc">
                 <h5 class="card-title">ПРОПОФОЛ-НОВО</h5>
                 <p class="card-text">Краткое описание продукта. Состав.</p>
                 <button class="btn btn-primary">Подробнее</button>
             </div>
         </div>
         <div class="card">
-            <div class="card-body">
+            <div class="card-image">
                 <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            </div>
+            <div class="card-desc">   
                 <h5 class="card-title">РЕОПОЛИГЛЮКИН-НОВОФАРМ</h5>
                 <p class="card-text">Краткое описание продукта. Состав.</p>
                 <button class="btn btn-primary">Подробнее</button>
             </div>
         </div>
         <div class="card">
-            <div class="card-body">
+            <div class="card-image">
                 <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            </div>
+            <div class="card-desc">
                 <h5 class="card-title">РЕФОРДЕЗ-НОВОФАРМ</h5>
                 <p class="card-text">Краткое описание продукта. Состав.</p>
                 <button class="btn btn-primary">Подробнее</button>
             </div>
         </div>
         <div class="card">
-            <div class="card-body">
+            <div class="card-image">
                 <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            </div>
+            <div class="card-desc">
                 <h5 class="card-title">ТИО-ЛИПОН-НОВОФАРМ</h5>
                 <p class="card-text">Краткое описание продукта. Состав.</p>
                 <button class="btn btn-primary">Подробнее</button>
             </div>
         </div>
         <div class="card">
-            <div class="card-body">
+            <div class="card-image">
                 <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            </div>
+            <div class="card-desc">
                 <h5 class="card-title">ЦИПРОФЛОКСАЦИН-НОВОФАРМ</h5>
                 <p class="card-text">Краткое описание продукта. Состав.</p>
                 <button class="btn btn-primary">Подробнее</button>
