@@ -1,31 +1,31 @@
 <% include partials/header %>
 <style>
     .container-fluid {
-        display: flex;
-        flex-flow: column;
-        justify-content: space-between;
-        /* grid-gap:20px; */
-        /* grid-template-columns: repeat(auto-fit,470px);
-        grid-template-rows: repeat(auto-fit,200px); */
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(auto-fit,minmax(370px,1fr));
     }
 
     .card {
         display: flex;
-        flex-direction: row;
+        flex-wrap: wrap; 
         background: whitesmoke;
-        /* width:350px; 
-        height:471px; */
-        /* grid-template-columns: 150px 1fr; */
+        align-content: flex-start;
+    }
+    .card-image{
+        height: 450px;
     }
 
     .card-desc {
         box-sizing: content-box;
         padding: 15px;
+        grid-column: span 2;
     }
 
     img {
-        width: 50%;
-        height: 50%;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
     }
 </style>
 <div class="jumbotron">
@@ -35,7 +35,7 @@
 <div class="container-fluid">
     <div class="card">
         <div class="card-image">
-            <img alt="product image" class="img-thumbnail card-img-top" src="http://www.novofarm.com.ua/images/stories/product/amikacid.jpg">
+            <img alt="product image" class="" src="../images/amikacid.jpg">
         </div>
         <div class="card-desc">
             <h5 class="card-title">АМИКАЦИД</h5>
@@ -59,7 +59,7 @@
     </div>
     <div class="card">
         <div class="card-image">
-            <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            <img alt="product image" class="" src="../images/aminokapr.jpg">
         </div>
         <div class="card-desc">
             <h5 class="card-title">АМИНОКАПРОНОВАЯ КИСЛОТА</h5>
@@ -79,7 +79,7 @@
     </div>
     <div class="card">
         <div class="card-image">
-            <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            <img alt="product image" class="" src="../images/artroks.jpg">
         </div>
         <div class="card-desc">
             <h5 class="card-title">АРТРОКС</h5>
@@ -99,7 +99,7 @@
     </div>
     <div class="card">
         <div class="card-image">
-            <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            <img alt="product image" class="" src="../images/atrakuriumnovo.jpg">
         </div>
         <div class="card-desc">
             <h5 class="card-title">АТРАКУРИУМ-НОВО</h5>
@@ -121,7 +121,7 @@
     </div>
     <div class="card">
         <div class="card-image">
-            <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            <img alt="product image" class="" src="../images/geparin.jpg">
         </div>
         <div class="card-desc">
             <h5 class="card-title">ГЕПАРИН-НОВОФАРМ</h5>
@@ -142,7 +142,7 @@
     </div>
     <div class="card">
         <div class="card-image">
-            <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            <img alt="product image" class="" src="../images/glukoza.jpg">
         </div>
         <div class="card-desc">
             <h5 class="card-title">ГЛЮКОЗА-НОВОФАРМ</h5>
@@ -168,7 +168,7 @@
     </div>
     <div class="card">
         <div class="card-image">
-            <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            <img alt="product image" class="" src="../images/levofloksacin.jpg">
         </div>
         <div class="card-desc">
             <h5 class="card-title">ЛЕВОФЛОКСАЦИН-НОВОФАРМ</h5>
@@ -211,7 +211,7 @@
     </div>
     <div class="card">
         <div class="card-image">
-            <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            <img alt="product image" class="" src="../images/manit.jpg">
         </div>
         <div class="card-desc">
             <h5 class="card-title">МАНИТ-НОВОФАРМ</h5>
@@ -247,7 +247,7 @@
     </div>
     <div class="card">
         <div class="card-image">
-            <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            <img alt="product image" class="" src="../images/metronidazol.jpg">
         </div>
         <div class="card-desc">
             <h5 class="card-title">МЕТРОНІДАЗОЛ-НОВОФАРМ</h5>
@@ -284,7 +284,7 @@
     </div>
     <div class="card">
         <div class="card-image">
-            <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            <img alt="product image" class="" src="../images/mildrakor.jpg">
         </div>
         <div class="card-desc">
             <h5 class="card-title">МИЛДРАКОР-НОВОФАРМ</h5>
@@ -321,7 +321,7 @@
     </div>
     <div class="card">
         <div class="card-image">
-            <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            <img alt="product image" class="" src="../images/natrij-hlorid.jpg">
         </div>
         <div class="card-desc">
             <h5 class="card-title">НАТРИЙ ХЛОРИД</h5>
@@ -357,7 +357,7 @@
     </div>
     <div class="card">
         <div class="card-image">
-            <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            <img alt="product image" class="" src="../images/neogemodez.jpg">
         </div>
         <div class="card-desc">
             <h5 class="card-title">НЕОГЕМОДЕЗ</h5>
@@ -394,7 +394,7 @@
     </div>
     <div class="card">
         <div class="card-image">
-            <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            <img alt="product image" class="" src="../images/novoxicam.jpg">
         </div>
         <div class="card-desc">
             <h5 class="card-title">НОВОКСИКАМ</h5>
@@ -430,7 +430,7 @@
     </div>
     <!-- <div class="card">
         <div class="card-image">
-            <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            <img alt="product image" class="" src=">
         </div>
         <div class="card-desc">
             <h5 class="card-title">НОВОКСИКАМ</h5>
@@ -462,7 +462,7 @@
     </div> -->
     <div class="card">
         <div class="card-image">
-            <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            <img alt="product image" class="" src="../images/novakson.jpg">
         </div>
         <div class="card-desc">
             <h5 class="card-title">НОВАКСОН</h5>
@@ -501,7 +501,7 @@
     </div>
     <div class="card">
         <div class="card-image">
-            <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            <img alt="product image" class="" src="../images/novostezin.jpg">
         </div>
         <div class="card-desc">
             <h5 class="card-title">НОВОСТЕЗИН</h5>
@@ -541,7 +541,7 @@
     </div>
     <div class="card">
         <div class="card-image">
-            <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            <img alt="product image" class="" src="../images/novostezin-spinal.jpg">
         </div>
         <div class="card-desc">
             <h5 class="card-title">НОВОСТЕЗИН СПИНАЛ ХЕВИ</h5>
@@ -579,7 +579,7 @@
     </div>
     <div class="card">
         <div class="card-image">
-            <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            <img alt="product image" class="" src="../images/ornidazol.jpg">
         </div>
         <div class="card-desc">
             <h5 class="card-title">ОРНИДАЗОЛ-НОВОФАРМ</h5>
@@ -620,7 +620,7 @@
     </div>
     <div class="card">
         <div class="card-image">
-            <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            <img alt="product image" class="" src="../images/propofol.jpg">
         </div>
         <div class="card-desc">
             <h5 class="card-title">ПРОПОФОЛ-НОВО</h5>
@@ -654,7 +654,7 @@
     </div>
     <div class="card">
         <div class="card-image">
-            <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            <img alt="product image" class="" src="../images/refordez.jpg">
         </div>
         <div class="card-desc">
             <h5 class="card-title">РЕОПОЛИГЛЮКИН-НОВОФАРМ</h5>
@@ -689,7 +689,7 @@
     </div>
     <div class="card">
         <div class="card-image">
-            <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            <img alt="product image" class="" src="../images/reopoliglukin.jpg">
         </div>
         <div class="card-desc">
             <h5 class="card-title">РЕФОРДЕЗ-НОВОФАРМ</h5>
@@ -722,7 +722,7 @@
     </div>
     <div class="card">
         <div class="card-image">
-            <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            <img alt="product image" class="" src="../images/tio-lipon.jpg">
         </div>
         <div class="card-desc">
             <h5 class="card-title">ТИО-ЛИПОН-НОВОФАРМ</h5>
@@ -760,7 +760,7 @@
     </div>
     <div class="card">
         <div class="card-image">
-            <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            <img alt="product image" class="" src="../images/ciprofloksacin.jpg">
         </div>
         <div class="card-desc">
             <h5 class="card-title">ЦИПРОФЛОКСАЦИН-НОВОФАРМ</h5>
@@ -796,79 +796,7 @@
     </div>
     <div class="card">
         <div class="card-image">
-            <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
-        </div>
-        <div class="card-desc">
-            <h5 class="card-title">ЦИПРОФЛОКСАЦИН-НОВОФАРМ</h5>
-            <strong>
-                Склад:
-            </strong>
-            <p class="card-text">
-                ципрофлоксацину гідрохлорид, натрію хлорид, динатрію едетат, розчин кислоти хлористоводневої, вода для
-                ін’єкцій.
-            </p>
-            <strong>
-                Показання до застосування:
-            </strong>
-            <p class="card-text">
-                середньо тяжкі та тяжкі форми інфекцій, спричинені чутливими до препарату мікроорганізмами, інфекції
-                ЛОР-органів, нижніх дихальних шляхів, органів малого таза, шкіри і м’яких тканин, кісток і суглобів,
-                венеричні інфекції, внутрішньочеревні інфекції, тяжкі інфекції на фоні імунодефіциту і нейтропенії.
-                Препарат застосовують для профілактики інфекційних ускладнень при хірургічних втручаннях.
-            </p>
-            <strong>
-                Упаковка:
-            </strong>
-            <p class="card-text">
-                по 100 та 200 мл у скляних пляшках.
-            </p>
-            <strong>
-                Реєстраційне посвідчення № UA/5534/01/01
-            </strong>
-            <p class="card-text">
-                Строк дії з 25.01.2012 по 25.01.2017
-            </p>
-        </div>
-    </div>
-    <div class="card">
-        <div class="card-image">
-            <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
-        </div>
-        <div class="card-desc">
-            <h5 class="card-title">ЦИПРОФЛОКСАЦИН-НОВОФАРМ</h5>
-            <strong>
-                Склад:
-            </strong>
-            <p class="card-text">
-                ципрофлоксацину гідрохлорид, натрію хлорид, динатрію едетат, розчин кислоти хлористоводневої, вода для
-                ін’єкцій.
-            </p>
-            <strong>
-                Показання до застосування:
-            </strong>
-            <p class="card-text">
-                середньо тяжкі та тяжкі форми інфекцій, спричинені чутливими до препарату мікроорганізмами, інфекції
-                ЛОР-органів, нижніх дихальних шляхів, органів малого таза, шкіри і м’яких тканин, кісток і суглобів,
-                венеричні інфекції, внутрішньочеревні інфекції, тяжкі інфекції на фоні імунодефіциту і нейтропенії.
-                Препарат застосовують для профілактики інфекційних ускладнень при хірургічних втручаннях.
-            </p>
-            <strong>
-                Упаковка:
-            </strong>
-            <p class="card-text">
-                по 100 та 200 мл у скляних пляшках.
-            </p>
-            <strong>
-                Реєстраційне посвідчення № UA/5534/01/01
-            </strong>
-            <p class="card-text">
-                Строк дії з 25.01.2012 по 25.01.2017
-            </p>
-        </div>
-    </div>
-    <div class="card">
-        <div class="card-image">
-            <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            <img alt="product image" class="" src="../images/pharmalipon.jpg">
         </div>
         <div class="card-desc">
             <h5 class="card-title">ФАРМАЛІПОН</h5>
@@ -902,7 +830,7 @@
     </div>
     <div class="card">
         <div class="card-image">
-            <img alt="product image" class="img-thumbnail card-img-top" src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            <img alt="product image" class="" src="../images/tio-lipon-turbo.jpg">
         </div>
         <div class="card-desc">
             <h5 class="card-title">ТІО-ЛІПОН ТУРБО</h5>
