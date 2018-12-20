@@ -3,6 +3,9 @@ var express = require('express');
 
 var app = express();
 
+const googleMapsClient = require('@google/maps').createClient({
+    key :'AIzaSyDK5pzc4Tv5HvhEZUEpz8sDBiSbhQXVeCs'
+})
 
 
 app.set("view engine", "ejs");

@@ -4,6 +4,7 @@
   "description": "test",
   "main": "index.js",
   "dependencies": {
+    "@google/maps": "^0.5.5",
     "ejs": "^2.6.1",
     "ejs-locals": "^1.0.2",
     "eslint": "^5.10.0",
